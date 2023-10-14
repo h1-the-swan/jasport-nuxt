@@ -1,8 +1,14 @@
-<script setup>
+<script setup lang="ts">
 import { projects } from '@/content/projects';
 import thumbHeadshot from "~/assets/jasport_cropped2_thumb.jpg";
 import logoOurResearch from "~/assets/ourresearch-logo-icon.png";
 // const show = reactive(Object.fromEntries(projects.map((project) => [project.label, false])));
+useHead({
+  title: 'Jason Portenoy, PhD',
+  meta: [
+    { name: 'description', content: "Jason Portenoy's personal website."}
+  ]
+})
 </script>
 
 <style scoped>

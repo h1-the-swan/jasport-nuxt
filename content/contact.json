@@ -1,0 +1,44 @@
+[
+	{
+		"title": null,
+		"text": "✉ jason.portenoy@gmail.com",
+		"url": "mailto:jason.portenoy@gmail.com",
+		"newTab": false
+	},
+	{
+		"title": null,
+		"text": "📄 Resume (one-pager)",
+		"url": "/JasonPortenoy_resume20230126.pdf",
+		"newTab": true
+	},
+	{
+		"title": null,
+		"text": "📜 Full CV",
+		"url": "/JasonPortenoy_CV20221207.pdf",
+		"newTab": true
+	},
+	{
+		"title": "GitHub",
+		"text": "h1-the-swan",
+		"url": "https://github.com/h1-the-swan",
+		"newTab": true
+	},
+	{
+		"title": null,
+		"text": "Stack Overflow",
+		"url": "https://github.com/h1-the-swan",
+		"newTab": true
+	},
+	{
+		"title": "Twitter",
+		"text": "@jportenoy",
+		"url": "http://twitter.com/jportenoy",
+		"newTab": true
+	},
+	{
+		"title": null,
+		"text": "LinkedIn",
+		"url": "https://www.linkedin.com/in/jason-portenoy/",
+		"newTab": true
+	}
+]

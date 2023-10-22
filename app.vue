@@ -7,13 +7,12 @@ import Contacts from '~/components/Contacts.vue';
 useHead({
   title: 'Jason Portenoy, PhD',
   meta: [
-    { name: 'description', content: "Jason Portenoy's personal website."}
+    { name: 'description', content: "Jason Portenoy's personal website." }
   ]
 })
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
 
 <template>
   <v-app id="jasport">
@@ -30,7 +29,9 @@ useHead({
                 <p class="text-h5 px-2">OurResearch</p>
               </div>
             </a>
-            <Contacts />
+            <div class="py-4">
+              <Contacts />
+            </div>
           </v-col>
           <v-col>
             <v-img class="rounded-e-xl rounded-ts-xl rounded-bs-circle" :src="thumbHeadshot" max-width="300px" />

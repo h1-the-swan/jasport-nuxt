@@ -15,7 +15,6 @@
 		"vscode": {
 			"extensions": [
 				"Vue.volar",
-				"Vue.vscode-typescript-vue-plugin",
 				"Nuxtr.nuxtr-vscode"
 			]
 		}

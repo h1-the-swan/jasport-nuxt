@@ -1,4 +1,5 @@
 import { VNode } from 'vue';
+import thumbOpenAlex from "~/assets/openalex1_thumb.png"
 import thumbBookStacks from "~/assets/book_stacks_thumb.jpg";
 import thumbCitationVis from "~/assets/citationvis_thumb.png";
 import thumbSciSight from "~/assets/scisight1.png";
@@ -20,6 +21,22 @@ interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    label: "openalex",
+    name: "OpenAlex",
+    imgSrc: thumbOpenAlex,
+    description: (
+      <div>
+        <a href="https://openalex.org/" target="_blank">
+          OpenAlex
+        </a>{" "}
+        is the world’s largest free and open Scientific Knowledge Graph (SKG), created by the
+        nonprofit startup OurResearch. Representing the entire global research ecosystem, it comprises more than 250
+        million scholarly works, billions of links between them, and terabytes of linked metadata. As Senior Data Engineer at OurResearch, my primary
+        role was to understand the strengths and limitations of the OpenAlex data, and to help our users do the same.
+      </div>
+    ),
+  },
   {
     label: "autoreview",
     name: "Automated literature review",
@@ -62,8 +79,6 @@ export const projects: Project[] = [
         >
           Video of the presentation can be found here.
         </a>{" "}
-        I am continuing to develop these methods to deploy them in a production
-        setting.
       </div>
     ),
   },

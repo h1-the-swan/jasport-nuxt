@@ -12,7 +12,12 @@ useHead({
 })
 </script>
 
-<style scoped></style>
+<style scoped>
+#jasport {
+  max-width: 1800px;
+  margin: auto;
+}
+</style>
 
 <template>
   <v-app id="jasport">
@@ -22,13 +27,7 @@ useHead({
         <v-row>
           <v-col cols="8">
             <h1 class="text-h2 pa-4">Jason Portenoy, PhD</h1>
-            <p class="text-h5">Senior Data Engineer, User Engagement and Outreach</p>
-            <a href="https://ourresearch.org" target="_blank">
-              <div class="d-flex">
-                <v-avatar><v-img :src="logoOurResearch" /></v-avatar>
-                <p class="text-h5 px-2">OurResearch</p>
-              </div>
-            </a>
+            <p class="text-h5">NYC-based data engineer/data scientist</p>
             <div class="py-4">
               <Contacts />
             </div>
@@ -39,7 +38,7 @@ useHead({
         </v-row>
         <h3 class="text-h3 py-4">Projects</h3>
         <v-row>
-          <v-col v-for="project in projects" :key="project.label" cols="4">
+          <v-col v-for="project in projects" :key="project.label" cols="12" sm="4">
             <v-card>
               <v-img :src="project.imgSrc" :alt="project.imgAltText" cover class="align-end" max-height="200px">
               </v-img>

@@ -55,6 +55,14 @@ export const projects: Project[] = [
         methods may miss. I show that this approach can work to recommend
         relevant literature, and can also be used to systematically compare
         different features used in the recommendations.
+
+        <br/>
+        <br/>
+        Portenoy, J., & West, J. D. (2020). Constructing and evaluating automated literature review systems. <i>Scientometrics. </i> 
+        <a href="https://doi.org/10.1007/s11192-020-03490-w" target="_blank">
+          https://doi.org/10.1007/s11192-020-03490-w
+        </a>{" "}
+
       </div>
     ),
   },
@@ -78,6 +86,12 @@ export const projects: Project[] = [
           target="_blank"
         >
           Video of the presentation can be found here.
+        </a>{" "}
+        <br/>
+        <br/>
+        Portenoy, J., Radensky, M., West, J. D., Horvitz, E., Weld, D. S., & Hope, T. (2022). Bursting Scientific Filter Bubbles: Boosting Innovation via Novel Author Discovery. <i>CHI 2022. </i> 
+        <a href="https://doi.org/10.1145/3491102.3501905" target="_blank">
+          https://doi.org/10.1145/3491102.3501905
         </a>{" "}
       </div>
     ),

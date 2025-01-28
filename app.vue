@@ -5,10 +5,15 @@ import logoOurResearch from "~/assets/ourresearch-logo-icon.png";
 import Contacts from '~/components/Contacts.vue';
 // const show = reactive(Object.fromEntries(projects.map((project) => [project.label, false])));
 useHead({
+  title: 'Jason Portenoy, PhD'
+})
+useSeoMeta({
   title: 'Jason Portenoy, PhD',
-  meta: [
-    { name: 'description', content: "Jason Portenoy's personal website." }
-  ]
+  description: "Jason Portenoy's personal website.",
+  ogTitle: 'Jason Portenoy, PhD',
+  ogDescription: "Jason Portenoy's personal website.",
+  ogImage: 'https://www.jasport.org/jasport_cropped2_thumb.jpg',
+  ogType: 'website'
 })
 </script>
 

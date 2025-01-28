@@ -47,7 +47,10 @@ export const projects: Project[] = [
     imgSrc: thumbBookStacks,
     description: (
       <div>
-        <em>Autoreview</em> is a framework for building and evaluating systems
+        <em><a href="https://www.jasport.org/Portenoy_West_2020_Constructing and evaluating automated literature review systems.pdf" target="_blank">
+          Autoreview
+        </a></em>
+        {" "}is a framework for building and evaluating systems
         to automatically select relevant publications for literature reviews,
         starting from small sets of seed papers. These automated methods have
         the potential to help researchers save time and effort when keeping up
@@ -59,9 +62,8 @@ export const projects: Project[] = [
         <br/>
         <br/>
         Portenoy, J., & West, J. D. (2020). Constructing and evaluating automated literature review systems. <i>Scientometrics. </i> 
-        <a href="https://doi.org/10.1007/s11192-020-03490-w" target="_blank">
-          https://doi.org/10.1007/s11192-020-03490-w
-        </a>{" "}
+        https://doi.org/10.1007/s11192-020-03490-w
+        
 
       </div>
     ),
@@ -197,7 +199,10 @@ export const projects: Project[] = [
     imgSrc: thumbMathJargon,
     description: (
       <div>
-        We analyze the mathematical language used in hundreds of thousands of
+        <a href="https://www.jasport.org/West_Portenoy_2016_Delineating Fields Using Mathematical Jargon.pdf" target="_blank">
+          We analyze the mathematical language
+        </a>
+        {" "}used in hundreds of thousands of
         scientific papers, comparing the use of math across different
         disciplines. By comparing the distributions of mathematical symbols and
         terms across fields, we quantify the "jargon barriers" between these
